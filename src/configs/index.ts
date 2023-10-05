@@ -17,7 +17,7 @@ export const supportedModels = [
 
 export type SupportedModel = (typeof supportedModels)[number];
 
-export const defaultModel: SupportedModel = 'gpt-3.5-turbo';
+export const defaultModel: SupportedModel = 'gpt-3.5-turbo-16k-0613';
 
 export const supportedImageModels = [
   'DALL-E',
