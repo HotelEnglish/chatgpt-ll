@@ -23,7 +23,7 @@ const Sidebar: FC<{
       ...items,
       [id]: {
         id,
-        title: '',
+        title: '乐乐小主',
         mode,
         messages: [],
         createdAt: Date.now(),
