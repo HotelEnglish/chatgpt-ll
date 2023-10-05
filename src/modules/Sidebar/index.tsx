@@ -83,11 +83,18 @@ const Sidebar: FC<{
       <div className="p-4 mt-2 flex items-baseline justify-between">
         <span className="text-3xl text-gradient font-[800]">乐乐小主 </span>
         <a
-          href="https://www.hotelenglish.cn"
+          href="https://github.com/GPTGenius/chatgpt-vercel"
           target="_blank"
           rel="noreferrer"
         >
           <i className="ml-2 ri-github-fill text-xl" />
+        </a>
+        <a
+          href="https://www.hotelenglish.cn/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="ml-2 ri-send-plane-fill text-xl" />
         </a>
       </div>
       <div className="p-2 flex items-center justify-between mb-4">
