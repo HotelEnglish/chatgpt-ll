@@ -11,7 +11,7 @@ export const supportedModels = [
   'moonshot-v1-32k',
   'qwen2-7b-instruct',
   'ERNIE-3.5-8K-0613',
-  'gemini-pro'
+  'gemini-pro',
 
 ] as const;
 
