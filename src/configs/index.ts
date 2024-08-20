@@ -5,11 +5,8 @@ export const localConversationKey = 'LOCAL_CONVERSATION';
 
 // From https://platform.openai.com/docs/models/model-endpoint-compatibility
 export const supportedModels = [
-  'hunyuan-pro',
-  'SparkDesk-v3.5',
-  'moonshot-v1-32k',
+  'SparkDesk-v4.0',
   'qwen2-7b-instruct',
-  'gpt-4o-mini',
 ] as const;
 
 export type SupportedModel = (typeof supportedModels)[number];
@@ -17,14 +14,14 @@ export type SupportedModel = (typeof supportedModels)[number];
 export const defaultModel: SupportedModel = 'gpt-4o-mini';
 
 export const supportedImageModels = [
-  'DALL-E',
-  'Midjourney',
+  'SparkDesk-v4.0',
+  'hunyuan-pro',
   'Replicate',
 ] as const;
 
 export type SupportedImageModels = (typeof supportedImageModels)[number];
 
-export const defaultImageModel: SupportedImageModels = 'DALL-E';
+export const defaultImageModel: SupportedImageModels = 'SparkDesk-v4.0';
 
 // From https://platform.openai.com/docs/api-reference/images/create
 export const supportedImgSizes = ['256x256', '512x512', '1024x1024'] as const;
