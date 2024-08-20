@@ -6,7 +6,13 @@ export const localConversationKey = 'LOCAL_CONVERSATION';
 // From https://platform.openai.com/docs/models/model-endpoint-compatibility
 export const supportedModels = [
   'gpt-4o-mini',
-  'gpt-3.5-turbo-16k-0613',
+  'hunyuan',
+  'SparkDesk-v3.5',
+  'moonshot-v1-32k',
+  'qwen2-7b-instruct',
+  'ERNIE-3.5-8K-0613',
+  'gemini-pro'
+
 ] as const;
 
 export type SupportedModel = (typeof supportedModels)[number];
