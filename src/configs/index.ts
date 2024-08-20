@@ -5,7 +5,7 @@ export const localConversationKey = 'LOCAL_CONVERSATION';
 
 // From https://platform.openai.com/docs/models/model-endpoint-compatibility
 export const supportedModels = [
-  'gpt-4o-mini'
+  'gpt-4o-mini',
 
 ] as const;
 
