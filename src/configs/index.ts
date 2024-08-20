@@ -14,14 +14,12 @@ export type SupportedModel = (typeof supportedModels)[number];
 export const defaultModel: SupportedModel = 'SparkDesk-v4.0';
 
 export const supportedImageModels = [
-  'SparkDesk-v4.0',
-  'hunyuan-pro',
   'Replicate',
 ] as const;
 
 export type SupportedImageModels = (typeof supportedImageModels)[number];
 
-export const defaultImageModel: SupportedImageModels = 'SparkDesk-v4.0';
+export const defaultImageModel: SupportedImageModels = 'Replicate';
 
 // From https://platform.openai.com/docs/api-reference/images/create
 export const supportedImgSizes = ['256x256', '512x512', '1024x1024'] as const;
