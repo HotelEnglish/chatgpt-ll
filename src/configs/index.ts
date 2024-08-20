@@ -11,7 +11,7 @@ export const supportedModels = [
 
 export type SupportedModel = (typeof supportedModels)[number];
 
-export const defaultModel: SupportedModel = 'gpt-4o-mini';
+export const defaultModel: SupportedModel = 'SparkDesk-v4.0';
 
 export const supportedImageModels = [
   'SparkDesk-v4.0',
