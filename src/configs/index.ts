@@ -15,6 +15,7 @@ export const defaultModel: SupportedModel = 'SparkDesk-v4.0';
 
 export const supportedImageModels = [
   'Replicate',
+  'DALL-E',
 ] as const;
 
 export type SupportedImageModels = (typeof supportedImageModels)[number];
