@@ -9,7 +9,6 @@ export const supportedModels = [
   'SparkDesk-v3.5',
   'moonshot-v1-32k',
   'qwen2-7b-instruct',
-  'ERNIE-3.5-8K-0613',
   'gpt-4o-mini',
 ] as const;
 
